@@ -4,16 +4,17 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .filter > .search {
     position: relative;
     width: 20%;
-    margin-top: 1%;
     margin-left: 50%;
   }
 
-  .search {
+  button {
     font-size: 18px;
     background-color: #FF5A5F;
     color: #FFFFFF;
@@ -28,13 +29,23 @@
   }
 
   h3 {
-    margin: 0;
+    font-weight: 600;
+    margin-bottom: 0;
   }
 
   h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+    white-space: nowrap;
+  }
+
+  h3, h4 {
+    margin-left: 20%;
+    margin-right: 25%;
   }
 
   .amenities {
     margin-left: 10%;
+    border-left: 1px solid #DDDDDD;
   }
-
