@@ -79,3 +79,7 @@ ul {
     align-items: center;
     background-color: #FAFAFA;
 }
+
+.popover_1, .popover_2 {
+    display: none;
+}
