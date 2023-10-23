@@ -11,7 +11,7 @@
   .filter > .search {
     position: relative;
     width: 20%;
-    margin-left: 50%;
+    margin-left: 35%;
   }
 
   button {
@@ -49,3 +49,4 @@
     margin-left: 10%;
     border-left: 1px solid #DDDDDD;
   }
+
