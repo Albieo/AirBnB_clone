@@ -1,0 +1,38 @@
+h1 {
+    font-size: 30px;
+    justify-items: first baseline;
+}
+
+.places {
+    max-width: 850px;
+}
+
+.places > div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* @media (max-width: 900px) {
+    .places > div {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+article {
+    /* position: absolute; */
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article h2 {
+    font-size: 30px;
+    margin: 0;
+}
