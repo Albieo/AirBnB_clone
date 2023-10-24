@@ -1,4 +1,5 @@
 .filters {
+    width: 1000px;
     height: 70px;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -42,11 +43,25 @@ h4 {
     font-size: 14px;
     margin-top: 0;
     white-space: nowrap;
-    }
+}
 
 h3, h4 {
     margin-left: 20%;
     margin-right: 25%;
+}
+
+.dropdown-wrapper {
+    display: flex;
+}
+
+.popover {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 25px;
+    padding-right: 113px;
+    margin: 0;
 }
 
 .amenities {
@@ -55,29 +70,15 @@ h3, h4 {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
-.dropdown-wrapper {
-    display: inline-flex;
-}
-
-.popover_1 {
-    padding-right: 55.5px;
+.popover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     align-items: center;
     background-color: #FAFAFA;
-}
-
-.popover_2 {
-    padding-right: 110px;
-    border: 1px solid #DDDDDD;
-    border-radius: 4px;
-    align-items: center;
-    background-color: #FAFAFA;
-}
-
-.popover_1, .popover_2 {
-    display: none;
+    padding: 25px;
+    padding-right: 113px;
+    margin: 0;
 }
