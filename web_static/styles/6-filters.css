@@ -1,12 +1,11 @@
 .filters {
-    width: 850px;
     height: 70px;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+}
 
 .filters > .search {
     position: relative;
@@ -72,7 +71,6 @@ ul {
 }
 
 .popover_2 {
-    /* margin-left: 240px; */
     padding-right: 110px;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
